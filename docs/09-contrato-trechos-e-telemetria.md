@@ -27,8 +27,8 @@ Este documento define as duas interfaces entre as trilhas:
     {
       "id": "derby",
       "nome": "Praça do Derby",
-      "lat": -8.0571,
-      "lon": -34.8985,
+      "lat": -8.05678,
+      "lon": -34.89953,
       "raio_m": 120,
       "risco": "alto",
       "score": 0.86,
@@ -83,8 +83,12 @@ Se dois trechos se sobrepõem, vale o de maior `score`.
 
 ## Observações
 
-- As coordenadas do arquivo de exemplo são **aproximadas** e servem só para testar.
-  Ajustem no Google Maps (botão direito → copiar coordenadas) antes da demo.
+- O arquivo de exemplo usa locais citados pela CTTU na entrevista, com coordenadas do
+  Google Maps. **Score, risco, horários e velocidade segura são inventados** para teste;
+  os valores reais virão do modelo (tarefa M4).
+- Rua Dez de Julho: o ponto usado é o de Boa Viagem. Confirmar com a CTTU se é o trecho
+  da intervenção. Estrada Velha de Água Fria: é uma via longa, então o ponto exato do
+  radar instalado em 11/2021 também precisa ser confirmado.
 - Os nomes de campo são curtos de propósito, para economizar memória no ESP32.
 
 # Parte 2 — Telemetria do módulo via MQTT
@@ -109,8 +113,8 @@ QoS 0 para telemetria, QoS 1 para alerta e status.
 ```json
 {
   "ts": "2026-10-13T18:05:12-03:00",
-  "lat": -8.0571,
-  "lon": -34.8985,
+  "lat": -8.05678,
+  "lon": -34.89953,
   "vel": 42,
   "fonte_vel": "can",
   "trecho": "derby",

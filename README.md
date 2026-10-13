@@ -46,7 +46,7 @@ quando ele está acima da velocidade segura num trecho de risco.
   telemetria MQTT (módulo → plataforma)
 - `docs/10-plano-mvp-e-materiais.md`: responsáveis, materiais e como o MVP cobre os
   requisitos da trilha
-- `data/contrato/trechos_exemplo.json`: 3 trechos de exemplo (coordenadas aproximadas)
+- `data/contrato/trechos_exemplo.json`: 4 trechos de exemplo (locais citados pela CTTU; valores de risco fictícios)
 
 ```bash
 # validar um arquivo de trechos
