@@ -1,0 +1,40 @@
+{
+  "versao": 1,
+  "gerado_em": "2026-10-13T12:00:00-03:00",
+  "fonte": "exemplo-manual",
+  "trechos": [
+    {
+      "id": "derby",
+      "nome": "Praça do Derby",
+      "lat": -8.0571,
+      "lon": -34.8985,
+      "raio_m": 120,
+      "risco": "alto",
+      "score": 0.86,
+      "horas": [7, 8, 17, 18, 19],
+      "vel_segura": 30
+    },
+    {
+      "id": "dez-de-julho",
+      "nome": "Rua Dez de Julho",
+      "lat": -8.0335,
+      "lon": -34.9120,
+      "raio_m": 80,
+      "risco": "medio",
+      "score": 0.58,
+      "horas": [17, 18, 19, 20],
+      "vel_segura": 30
+    },
+    {
+      "id": "estrada-velha-agua-fria",
+      "nome": "Estrada Velha de Água Fria",
+      "lat": -8.0125,
+      "lon": -34.8990,
+      "raio_m": 150,
+      "risco": "baixo",
+      "score": 0.31,
+      "horas": [],
+      "vel_segura": 40
+    }
+  ]
+}
